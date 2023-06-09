@@ -20,16 +20,16 @@ export default function Hero() {
 
         <CustomButton
           title="Explore Cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
-          handleClick={handleScrool}
+          styles="bg-primary-blue text-white rounded-full mt-10"
+          onClick={handleScrool}
         />
 
         <div className="hero__image-container">
           <div className="hero__image">
             <Image src="/hero.png" alt="Hero" fill className="object-contain" />
-
-            <div className="hero__image-overlay"></div>
           </div>
+
+          <div className="hero__image-overlay"></div>
         </div>
       </div>
     </div>
